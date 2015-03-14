@@ -1,0 +1,35 @@
+{
+	"default_module": "powerline.segments.common",
+	"segment_data": {
+		"hostname": {
+			"before": " ",
+			"args": {
+				"only_if_ssh": true
+			}
+		},
+		"branch": {
+			"before": " "
+		}
+	},
+	"segments": {
+		"left": [
+			{
+				"name": "hostname"
+			},
+			{
+				"name": "cwd",
+				"args": {
+					"dir_limit_depth": 2
+				}
+			}
+		],
+		"right": [
+			{
+				"name": "virtualenv"
+			},
+			{
+				"name": "branch"
+			}
+		]
+	}
+}

@@ -1,0 +1,14 @@
+session_name: admin
+windows:
+    - window_name: stats
+      panes:
+      - shell_command: sudo htop
+    - window_name: install
+      panes:
+      - shell_command:
+    - window_name: config
+      panes:
+      - shell_command:
+    - window_name: misc
+      panes:
+      - shell_command:

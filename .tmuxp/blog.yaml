@@ -1,0 +1,12 @@
+session_name: blog
+start_directory: ~/Documents/Projects/blog
+windows:
+    - window_name: edit
+      panes:
+      - shell_command: vim
+    - window_name: build
+      panes:
+      - shell_command:
+    - window_name: misc
+      panes:
+      - shell_command:

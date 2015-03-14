@@ -1,0 +1,15 @@
+session_name: dev
+start_directory: ~/Monetate/monetate-server
+windows:
+    - window_name: edit
+      panes:
+      - shell_command: vim
+    - window_name: build
+      panes:
+      - shell_command: source ~/Monetate/bin/activate
+    - window_name: misc
+      panes:
+      - shell_command: source ~/Monetate/bin/activate
+    - window_name: devbox
+      panes:
+      - shell_command: source ~/Monetate/bin/activate

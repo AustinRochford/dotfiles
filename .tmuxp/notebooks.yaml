@@ -1,0 +1,9 @@
+session_name: notebooks
+start_directory: ~/Documents/Projects/notebooks
+windows:
+    - window_name: edit
+      panes:
+      - shell_command: vim
+    - window_name: run
+      panes:
+      - shell_command:

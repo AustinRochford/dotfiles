@@ -1,0 +1,18 @@
+{
+	"name": "Default color scheme for shell prompts",
+	"groups": {
+		"user": { "fg": "black", "bg": "white", "attr": ["bold"] },
+		"superuser": { "fg": "white", "bg": "brightred", "attr": ["bold"] },
+		"virtualenv": { "fg": "white", "bg": "darkgreen" },
+		"branch": { "fg": "black", "bg": "white" },
+		"branch_dirty": { "fg": "brightyellow", "bg": "gray2" },
+		"branch_clean": { "fg": "gray9", "bg": "gray2" },
+		"cwd": { "fg": "black", "bg": "white" },
+		"cwd:current_folder": { "fg": "white", "bg": "darkblue", "attr": ["bold"] },
+		"cwd:divider": { "fg": "black", "bg": "white" },
+		"hostname": { "fg": "brightyellow", "bg": "mediumorange" },
+		"exit_fail": { "fg": "white", "bg": "darkestred" },
+		"exit_success": { "fg": "white", "bg": "darkestgreen" },
+		"environment": { "fg": "white", "bg": "darkestgreen" }
+	}
+}
