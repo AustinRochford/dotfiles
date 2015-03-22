@@ -7,3 +7,6 @@ windows:
     - window_name: run
       panes:
       - shell_command:
+    - window_name: misc
+      panes:
+      - shell_command:
